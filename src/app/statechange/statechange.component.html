@@ -1,0 +1,10 @@
+<div class="container">
+<mat-card >
+    <p>State changing</p>
+    <button mat-raised-button (click)="onClick('a')" *ngIf="enabled_clicker('a')">a</button>
+    <button mat-raised-button (click)="onClick('b')" *ngIf="enabled_clicker('b')">b</button>
+    <button mat-raised-button (click)="onClick('c')" *ngIf="enabled_clicker('c')">c</button>
+    <button mat-raised-button (click)="onClick('d')" *ngIf="enabled_clicker('d')">d</button>
+</mat-card>
+
+</div>

@@ -1,0 +1,13 @@
+<div class="container">
+    <mat-card >
+        <p>Operation transitions</p>
+        <p>v1: {{state[0]}}</p>
+        <p>v2: {{state[1]}}</p>
+        <button mat-raised-button (click)="onClick(1)" *ngIf="enabled_clicker(1)">op1</button>
+        <button mat-raised-button (click)="onClick(2)" *ngIf="enabled_clicker(2)">op2</button>
+        <button mat-raised-button (click)="onClick(3)" *ngIf="enabled_clicker(3)">op3</button>
+        <button mat-raised-button (click)="onClick(4)" *ngIf="enabled_clicker(4)">op4</button>
+        <button mat-raised-button (click)="onClick(5)" *ngIf="enabled_clicker(5)">op5</button>
+    </mat-card>
+    
+</div>
